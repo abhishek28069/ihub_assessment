@@ -41,7 +41,7 @@
   - The `.env` file has information about the node.js server.
 
 ## Node service
-
+- Service is clearly documented using Postman and available at [https://documenter.getpostman.com/view/8017219/2sA2xh2CXM](https://documenter.getpostman.com/view/8017219/2sA2xh2CXM), has example responses too.
 - Implemented three routes
   ```
   /published-blogs
@@ -49,13 +49,20 @@
   /blog/:idOrTitle
   ```
 - Used the [content api](https://ghost.org/docs/content-api/) provided by ghost to fetch the blog posts.
+
+
+
 - Also used the advanced [filtering service](https://ghost.org/docs/content-api/#filtering) provided by ghost which involves NQL.
 
 ## React Client
 
 - Implemented a sample client app which fully utilizes the above created node service.
+
+
+
 - Styled with `tailwindcss` and used `react-router-dom`.
 - Used `axios` for network calls.
 - Search functionlaity is optimized by debouncing the input.
 
-  <video src="/assets/Untitled video - Made with Clipchamp.mp4" width="320" height="240" controls></video>
+https://github.com/abhishek28069/ihub_assessment/assets/38246372/a643624a-17e6-42e4-ba3c-41c7c1331487
+
