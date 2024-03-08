@@ -17,6 +17,7 @@
   - This installs the `ghost-cli` and starts the already existing ghost local server.
   - The ghost blog engine will be up and running at port `2368`.
   - Admin panel is at `http.//localhost:2369/ghost/admin`.
+    - Credentials for logging in are `email:` abhishek.gaddam@students.iiit.ac.in and `password:` nd.2PSyyUH5dJLf   
   - NOTE: If you want to start with fresh installation of ghost, run `ghost install local` before `ghost start`.
     - Then go through the setup and populate it manually with some blog posts.
     - Go to `settings/integrations` and add a custom integration, copy the content_api key and update it in `/.env` file in the root folder.
